@@ -21,6 +21,7 @@ html {
  padding: 1.5rem;
  background-color: #e7bdd2;
 
+
 main {
   width: 80vw;
   margin: 0 auto;
@@ -28,7 +29,6 @@ main {
   grid-template-columns: 1fr 2fr;
   grid-auto-rows:min-content;
   grid-gap:2rem;
-  font-family:monospace
 }
 
 .type-sample {
@@ -40,29 +40,6 @@ main {
   grid-gap:2rem;
 }
 
-/* unvisited link */
-a:link {
-  color: darkslateblue;
-}
-
-/* selected link */
-a:active {
-  color: #999;
-}
-
-/* mouse over link */
-a:hover {
-  color: mediumvioletred;
-}
-
-.intro-block{
-  display: grid;
-  grid-template-columns: repeat(6,1fr);
-  grid-auto-rows: min-content;
-  grid-gap: 2rem;
-  padding-bottom: 2rem;
-  border-bottom: 1px solid rgb(14, 13, 13);
-}
 .left-sidebar {
   grid-column: 1 / 2;
   background-color:#fff;
@@ -70,7 +47,6 @@ a:hover {
 
 .main-content {
   grid-column: 2 / 3;
-  background-color: rgb(162, 151, 192);
 }
 
 .intro-block {
@@ -78,7 +54,7 @@ a:hover {
 }
 
 .article {
-  grid-column:1 / 5;
+  grid-column:1 / 3;
 }
 
 
@@ -87,42 +63,47 @@ a:hover {
 
 
 h1, h2, h3, h4, h5, h6 {
-  font-family:'Fruktur', cursive;
-
+  font-family: 'Lora', serif;
   font-weight:700;
 }
 
 h1 {
+  font-family: 'Fruktur', cursive;
   font-size:5rem;
   margin-bottom:1.25rem;
 }
 
 h2 {
-  font-size:3.25rem;
+  font-family: 'Fruktur', cursive;
+  font-size:3.375rem;
   margin-bottom:1.25rem;
 }
 
 h3 {
+  font-family: 'Fruktur', cursive;
   font-size:2.25rem;
   margin-bottom:1rem;
 }
 
 h4 {
+  font-family: 'Fruktur', cursive;
   font-size:1.5rem;
   margin-bottom:1rem;
 }
 
 h5 {
+  font-family: 'Fruktur', cursive;
   font-size:1;
   margin-bottom:.5rem;
 }
 
 h6 {
+  font-family: 'Fruktur', cursive;
   font-size:1rem;
 }
 
 p{
-  font-family: 'Courier New', Courier, monospace
+  font-family:'Fruktur', cursive;
   font-size: 1rem;
   line-height: 1.5;
   margin-bottom:1rem;
@@ -137,6 +118,7 @@ p{
   line-height: 1.5;
   padding:2rem;
 }
+
 
 /*
  * Remove text-shadow in selection highlight:
@@ -184,6 +166,12 @@ img,
 svg,
 video {
   vertical-align: middle;
+}
+
+img {
+
+  max-width: 100%;
+  height: auto;
 }
 
 /*
@@ -381,4 +369,3 @@ textarea {
     page-break-after: avoid;
   }
 }
-
