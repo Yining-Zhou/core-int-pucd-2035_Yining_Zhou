@@ -5,8 +5,8 @@
 
 function setup() {
   createCanvas(displayWidth, displayHeight);
-  strokeWeight(10);
-  stroke(0);
+  strokeWeight(60);
+  stroke(6,21);
 }
 
 function touchMoved() {
