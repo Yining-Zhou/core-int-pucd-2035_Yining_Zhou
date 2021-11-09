@@ -69,7 +69,7 @@ let modMaxDepth = 150;
 let modMinDepth = -150;
 
 function setup() {
-  let cnv = createCanvas(800, 400);
+  let cnv = createCanvas(1400, 800);
   noFill();
 
   carrier = new p5.Oscillator('sine');
@@ -93,7 +93,7 @@ function setup() {
 }
 
 function draw() {
-  background(30);
+  background(30,6);
 
   // map mouseY to modulator freq between a maximum and minimum frequency
   let modFreq = map(mouseY, height, 0, modMinFreq, modMaxFreq);
@@ -109,8 +109,8 @@ function draw() {
   waveform = analyzer.waveform();
 
   // draw the shape of the waveform
-  stroke(255);
-  strokeWeight(10);
+  stroke(400);
+  strokeWeight(14);
   beginShape();
   for (let i = 0; i < waveform.length; i++) {
     let x = map(i, 0, waveform.length, 0, width);
