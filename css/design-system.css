@@ -1,12 +1,14 @@
 
 
-@import url('https://fonts.googleapis.com/css?family=Amiri:400,700|Noto+Sans+JP:400,500,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fruktur&family=Mochiy+Pop+P+One&family=Montserrat:wght@100&family=Road+Rage&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fruktur&family=Mochiy+Pop+P+One&family=Montserrat:wght@100&family=Road+Rage&family=Titillium+Web:wght@300&display=swap');
+
 /*! minireset.css v0.0.6 | MIT License */ html,body,p,ol,ul,li,dl,dt,dd,blockquote,figure,fieldset,legend,textarea,pre,iframe,hr,h1,h2,h3,h4,h5,h6{margin:0;padding:0}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}ul{list-style:none}button,input,select,textarea{margin:0}html{box-sizing:border-box}*,*::before,*::after{box-sizing:inherit}img,video{height:auto;max-width:100%}iframe{border:0}table{border-collapse:collapse;border-spacing:0}td,th{padding:0}td:not([align]),th:not([align]){text-align:left}
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
 html {
   font-size: 1rem;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Road Rage', cursive;
     background-color: #f19ba6;
 }
 
@@ -130,7 +132,7 @@ a {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Titillium Web', sans-serif;
     font-weight:700;
   line-height:1;
 }
@@ -222,7 +224,7 @@ p, li {
   display: flex;
   padding:3rem 1rem;
   color:#d8d6bf;
-  font-family: 'Open Sans', sans-serif;}
+  font-family:'Titillium Web', sans-serif;}
 
 .primary-hue > div {
   width:33%;
@@ -232,7 +234,7 @@ p, li {
   display: flex;
   padding:1.5rem 1rem;
   color:#ffffff;
-  font-family: 'Open Sans', sans-serif;}
+  font-family:'Titillium Web', sans-serif;}
 
 .secondary-hue > div {
   width:33%;
@@ -242,7 +244,7 @@ p, li {
   display: flex;
   padding:1.5rem 1rem;
   color:#ffffff;
-  font-family: 'Open Sans', sans-serif;}
+  font-family: 'Titillium Web', sans-serif;}
 
 .neutral-hue > div {
   width:33%;
@@ -252,7 +254,7 @@ p, li {
   display: flex;
   padding:.5rem 1rem;
   color:#ffffff;
-  font-family: 'Open Sans', sans-serif;}
+  font-family: 'Titillium Web', sans-serif;}
 
 .accent-hue > div {
   width:33%;
@@ -337,7 +339,7 @@ input[type=text] {
   color: white;
   padding: 16px;
   font-size: 16px;
-  font-family: 'Open Sans', sans-serif;  border: none;
+  font-family: 'Titillium Web', sans-serif;  border: none;
   cursor: pointer;
 }
 
@@ -441,7 +443,7 @@ input:checked + .slider:before {
 
 label {
     display: block;
-    font: 1rem 'Open Sans', sans-serif;
+    font: 1rem 'Titillium Web', sans-serif;
 }
 
 input {
