@@ -7,7 +7,7 @@
 html {
   font-size: 1rem;
   font-family: 'Open Sans', sans-serif;
-    background-color: #eaeaea;
+    background-color: #f19ba6;
 }
 
 body {
@@ -15,12 +15,12 @@ body {
 }
 
 :root {
-  --wf-gray: #434E59;
-  --wf-light-gray: #E6ECF2;
-  --wf-bright-yellow: #F2BC1B;
-  --wf-medium-yellow: #CF9730;
-  --wf-medium-brown: #CF9730;
-  --wf-deep-brown: #736048;
+  --orange: #fc6501;
+  --yellow: #ffbe0a;
+  --light-yellow: #faf5b7;
+  --light-orange: #ff9f44;
+  --purple: #9e6cc7;
+  --dark-purple: #722591;
   --body-text-color: var(--wf-medium-brown);
 }
 
@@ -28,7 +28,7 @@ body {
 
 
 main {
-  width:80vw;
+  width:90vw;
   margin: 0 auto;
 }
 
@@ -197,31 +197,31 @@ p, li {
 
 
 
-  .color-gray {
-    background-color: #434E59;
+  .color-yellow {
+    background-color: #ffbe0a;
   }
 
-    .color-light-gray {
-    background-color: #E6ECF2;
+    .color-orange {
+    background-color: #fc6501;
   }
-    .color-bright-yellow {
-    background-color: #F2BC1B;
+    .color-light-yellow {
+    background-color: #faf5b7;
   }
-    .color-medium-yellow {
-    background-color: #CF9730;
+    .color-light-orange {
+    background-color: #ff9f44;
   }
-    .color-medium-brown {
-    background-color: #A66312;
+    .color-purple {
+    background-color: #9e6cc7;
   }
-    .color-deep-brown {
-    background-color: #736048;
+    .color-dark-purple {
+    background-color: #722591;
   }
 
 
 .primary-hue {
   display: flex;
   padding:3rem 1rem;
-  color:#ffffff;
+  color:#d8d6bf;
   font-family: 'Open Sans', sans-serif;}
 
 .primary-hue > div {
@@ -265,7 +265,7 @@ p, li {
 /* -- buttons -- */
 
 .button {
-  background-color: #CF9730; 
+  background-color: #ff9f44; 
   border: none;
   color: white;
   padding: 8px 32px;
@@ -280,18 +280,18 @@ p, li {
 }
 
 .button1 {
-  background-color: #CF9730; 
+  background-color: #ffbe0a; 
   color: white; 
 }
 
 .button1:hover {
-  background-color: #A66312;
+  background-color: #9e6cc7;
   color: white;
 }
 
 .button2 {
-  background-color: white; 
-  color: #A66312; 
+  background-color: #ff9f44; 
+  color: #ffffff; 
   border: 2px solid #736048;
 }
 
@@ -302,14 +302,14 @@ p, li {
 }
 
 .button3 {
-  background-color: #736048; 
+  background-color: #fc6501; 
   color: white; 
   opacity: 0.6;
   cursor: not-allowed;
 }
 
 .button3:hover {
-  background-color: #736048; 
+  background-color: #722591; 
   color: white; 
   opacity: 0.6;
   cursor: not-allowed;
@@ -322,9 +322,9 @@ input[type=text] {
   padding: 12px 20px;
   margin: 8px 0;
   box-sizing: border-box;
-  border: 1px solid #F2B138;
+  border: 1px solid #faf5b7;
   border-radius: 2px;
-  color: #A66312; 
+  color: #fc6501; 
 
 }
 
@@ -332,7 +332,7 @@ input[type=text] {
 
 
 .dropbtn {
-  background-color: #736048; 
+  background-color: #434E59; 
   box-shadow: 3px 3px 2px 1px rgba(22, 22, 22, .4);
   color: white;
   padding: 16px;
@@ -356,7 +356,7 @@ input[type=text] {
 }
 
 .dropdown-content a {
-  color: black;
+  color: rgb(58, 41, 19);
   padding: 12px 16px;
   text-decoration: none;
   display: block;
@@ -369,7 +369,7 @@ input[type=text] {
 }
 
 .dropdown:hover .dropbtn {
-  background-color: #A66312;
+  background-color: #fc6501;
 }
 
 /* -- switch -- */
@@ -413,11 +413,11 @@ input[type=text] {
 }
 
 input:checked + .slider {
-  background-color: #F2B138;
+  background-color: #fc6501;
 }
 
 input:focus + .slider {
-  box-shadow: 0 0 1px #F2B138;
+  box-shadow: 0 0 1px #fc6501;
 }
 
 input:checked + .slider:before {
@@ -446,7 +446,7 @@ label {
 
 input {
     margin: .4rem 0;
-    border: 1px solid #F2B138;
+    border: 1px solid #fc6501;
 }
 
 .pointer{
@@ -459,7 +459,7 @@ input {
 .loader {
   border: 16px solid #ccc;
   border-radius: 50%;
-  border-top: 16px solid #F2B138;
+  border-top: 16px solid #fc6501;
   width: 100px;
   height: 100px;
   -webkit-animation: spin 2s linear infinite; /* Safari */
@@ -506,7 +506,7 @@ hr {
 
 /* Set a style for all buttons */
 button {
-  background-color: #CF9730;
+  background-color: #9e6cc7;
   color: white;
   padding: 14px 20px;
   margin: 8px 0;
@@ -522,7 +522,7 @@ button:hover {
 /* Extra styles for the cancel button */
 .cancelbtn {
   padding: 14px 20px;
-  background-color: #434E59;
+  background-color: #000000;
 }
 
 /* Float cancel and signup buttons and add an equal width */
